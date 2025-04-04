@@ -10,6 +10,8 @@ namespace AutoCatalog.Models
         public string Model { get; set; }
         public decimal Price { get; set; }
         public byte[] Image { get; set; }
+        public int ViewCount { get; set; } = 0;  // Нова властивість
+
         
         [NotMapped]
         public string ImageData { get; set; }

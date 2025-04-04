@@ -19,11 +19,13 @@
     @foreach (var car in Model)
     {
         <div class="car-info" data-year="@car.Year">
-            <!-- Restoring the display of the year with brand and model -->
             <h1>@car.Brand @car.Model (@car.Year)</h1>
             <img src="data:image/png;base64,@car.ImageData" alt="@car.Brand @car.Model" width="500" height="500">
             <div class="price">@car.Price$</div>
-            <a asp-action="Buy" asp-route-id="@car.Id" class="buy-button">Купити</a>
+            <div class="button-group">
+                <a asp-action="Buy" asp-route-id="@car.Id" class="buy-button">Купити</a>
+                <a asp-action="Details" asp-route-id="@car.Id" class="btn-primary">Деталі</a>
+            </div>
         </div>
     }
 </div>

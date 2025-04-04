@@ -109,3 +109,4 @@
 /Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCata.DE5FEA41.Up2Date
 /Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCatalog.genruntimeconfig.cache
 /Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/ref/AutoCatalog.dll
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCatalog.sourcelink.json
