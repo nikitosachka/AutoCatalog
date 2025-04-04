@@ -1,0 +1,33 @@
+@model IEnumerable<AutoCatalog.Models.Auto>
+
+@{
+    ViewData["Title"] = "Каталог Авто";
+}
+
+<div class="filter-bar">
+    <select id="sortOrder" class="form-control">
+        <option value="brand">Сортувати за маркою</option>
+        <option value="brand_desc">Сортувати за маркою (спадання)</option>
+        <option value="year">Сортувати за роком випуску</option>
+        <option value="year_desc">Сортувати за роком випуску (спадання)</option>
+        <option value="price">Сортувати за ціною</option>
+        <option value="price_desc">Сортувати за ціною (спадання)</option>
+    </select>
+</div>
+
+<div id="car-catalog" class="car-catalog">
+    @foreach (var car in Model)
+    {
+        <div class="car-info" data-year="@car.Year">
+            <!-- Restoring the display of the year with brand and model -->
+            <h1>@car.Brand @car.Model (@car.Year)</h1>
+            <img src="data:image/png;base64,@car.ImageData" alt="@car.Brand @car.Model" width="500" height="500">
+            <div class="price">@car.Price$</div>
+            <a asp-action="Buy" asp-route-id="@car.Id" class="buy-button">Купити</a>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script src="~/js/filter-catalog.js"></script>
+}
