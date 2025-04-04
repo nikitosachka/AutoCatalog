@@ -20,7 +20,7 @@ jobs:
         dotnet-version: '8.0.x'  # Залежить від того, яку версію ти використовуєш
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore AutoCatalog.sln
 
     - name: Build
       run: dotnet build --no-restore
