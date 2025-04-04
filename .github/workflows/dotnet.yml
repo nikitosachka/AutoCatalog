@@ -11,19 +11,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '8.0.x'  # Залежить від того, яку версію ти використовуєш
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'  # або 7.0.x, залежно від версії твого проєкту
 
-    - name: Restore dependencies
-      run: dotnet restore AutoCatalog.sln
+      - name: Restore dependencies
+        run: dotnet restore AutoCatalog.sln
 
-    - name: Build
-      run: dotnet build --no-restore
+      - name: Build
+        run: dotnet build AutoCatalog.sln --no-restore --configuration Release
 
-    - name: Run Tests
-      run: dotnet test --no-build --verbosity normal
+      - name: Run Tests
+        run: dotnet test AutoCatalog.sln --no-build --verbosity normal
