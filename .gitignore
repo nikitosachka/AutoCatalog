@@ -1,0 +1,31 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]ebug-net*/  
+[Dd]ebug-windows*/  
+[Dd]ebug-linux*/  
+[Dd]ebug-osx*/  
+[Dd]ebug-netcore*/  
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# Windows installer files
+Thumbs.db
+ehthumbs.db
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# User files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Binaries
+bin/
+obj/
