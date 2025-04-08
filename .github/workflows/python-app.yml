@@ -1,20 +1,24 @@
-name: Python CI
+name: Cyclomatic Complexity Analysis
 
 on:
+  workflow_dispatch:  # ручний запуск
   push:
-  pull_request:
+    paths:
+      - '.Tests/**'
+      - '.github/workflows/python-app.yml'
 
 jobs:
   cyclomatic-complexity:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-    - name: Run Cyclomatic Complexity script
-      run: python .Tests/cyclomatic_complexity.py
+      - name: Run Cyclomatic Complexity Analysis
+        run: python3 .Tests/cyclomatic_complexity.py
