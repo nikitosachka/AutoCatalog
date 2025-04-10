@@ -5,7 +5,7 @@ namespace AutoCatalog.Tools
 {
     public class CyclomaticComplexity
     {
-        public static void AnalyzeProject(string path)
+        public static int AnalyzeProject(string path)
         {
             int complexity = 0;
 
@@ -15,7 +15,7 @@ namespace AutoCatalog.Tools
                 complexity += CalculateComplexity(code);
             }
 
-            Console.WriteLine($"Cyclomatic Complexity of project: {complexity}");
+            return complexity;
         }
 
         private static int CalculateComplexity(string code)
@@ -26,7 +26,7 @@ namespace AutoCatalog.Tools
                            + CountOccurrences(code, "case")
                            + CountOccurrences(code, "catch");
 
-            return conditions + 1; // +1 за кожен метод
+            return conditions + 1;
         }
 
         private static int CountOccurrences(string code, string word)
