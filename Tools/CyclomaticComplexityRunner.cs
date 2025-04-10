@@ -8,7 +8,7 @@ namespace Tests.Tools
         [Test]
         public void RunCyclomaticComplexityAnalysis()
         {
-            CyclomaticComplexity.AnalyzeProject("https://github.com/nikitosachka/AutoCatalog");
+            CyclomaticComplexity.AnalyzeProject("../../../../AutoCatalog");
         }
     }
 }
