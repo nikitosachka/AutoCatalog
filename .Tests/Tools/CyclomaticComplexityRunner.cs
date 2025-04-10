@@ -1,5 +1,6 @@
 using AutoCatalog.Tools;
 using NUnit.Framework;
+using System.IO;
 
 namespace Tests.Tools
 {
@@ -8,7 +9,8 @@ namespace Tests.Tools
         [Test]
         public void RunCyclomaticComplexityAnalysis()
         {
-            CyclomaticComplexity.AnalyzeProject("../../../../AutoCatalog");
+            var projectPath = Path.Combine(TestContext.CurrentContext.TestDirectory, "../../../../AutoCatalog");
+            CyclomaticComplexity.AnalyzeProject(projectPath);
         }
     }
 }
