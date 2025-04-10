@@ -1,31 +1,37 @@
 using System;
 using System.IO;
-using System.Linq;
 
 namespace AutoCatalog.Tools
 {
     public class CyclomaticComplexity
     {
-        public static int Calculate(string code)
+        public static void AnalyzeProject(string path)
         {
-            int conditions = code.Split(new[] { "if", "for", "while", "case", "&&", "||" }, StringSplitOptions.None).Length - 1;
-            return conditions + 1;
+            int complexity = 0;
+
+            foreach (string file in Directory.GetFiles(path, "*.cs", SearchOption.AllDirectories))
+            {
+                string code = File.ReadAllText(file);
+                complexity += CalculateComplexity(code);
+            }
+
+            Console.WriteLine($"Cyclomatic Complexity of project: {complexity}");
         }
 
-        public static void AnalyzeProject(string rootPath)
+        private static int CalculateComplexity(string code)
         {
-            var csFiles = Directory.GetFiles(rootPath, "*.cs", SearchOption.AllDirectories)
-                                   .Where(path => !path.Contains("obj") && !path.Contains("bin"))
-                                   .ToList();
+            int conditions = CountOccurrences(code, "if")
+                           + CountOccurrences(code, "while")
+                           + CountOccurrences(code, "for")
+                           + CountOccurrences(code, "case")
+                           + CountOccurrences(code, "catch");
 
-            Console.WriteLine($"Found {csFiles.Count} .cs files\n");
+            return conditions + 1; // +1 за кожен метод
+        }
 
-            foreach (var file in csFiles)
-            {
-                var code = File.ReadAllText(file);
-                var complexity = Calculate(code);
-                Console.WriteLine($"{file} - Cyclomatic Complexity: {complexity}");
-            }
+        private static int CountOccurrences(string code, string word)
+        {
+            return code.Split(new[] { word }, StringSplitOptions.None).Length - 1;
         }
     }
 }
