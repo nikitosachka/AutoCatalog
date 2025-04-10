@@ -10,7 +10,10 @@ namespace Tests.Tools
         public void RunCyclomaticComplexityAnalysis()
         {
             var projectPath = Path.Combine(TestContext.CurrentContext.TestDirectory, "../../../../AutoCatalog");
-            CyclomaticComplexity.AnalyzeProject(projectPath);
+
+            int complexity = CyclomaticComplexity.AnalyzeProject(projectPath);
+
+            TestContext.Progress.WriteLine($"Cyclomatic Complexity of project: {complexity}");
         }
     }
 }
