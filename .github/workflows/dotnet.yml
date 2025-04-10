@@ -26,4 +26,4 @@ jobs:
         run: dotnet build AutoCatalog.sln --no-restore --configuration Release
 
       - name: Run Tests
-        run: dotnet test AutoCatalog.sln --no-build --verbosity normal
+        run: dotnet test AutoCatalog.sln --no-build --logger "console;verbosity=detailed"
