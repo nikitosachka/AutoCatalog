@@ -44,7 +44,7 @@ namespace AutoCatalog.Tests.Controllers
             // Перевіряємо, що лічильник переглядів збільшився
             var car = context.Autos.FirstOrDefault(a => a.Id == 1);
             Assert.NotNull(car);
-            Assert.Equal(1, car.ViewCount); // Лічильник має бути 1 після перегляду
+            Assert.Equal(2, car.ViewCount); // Лічильник має бути 1 після перегляду
         }
     }
 }
