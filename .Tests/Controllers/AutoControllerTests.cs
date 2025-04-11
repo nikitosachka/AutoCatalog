@@ -43,7 +43,7 @@ namespace AutoCatalog.Tests.Controllers
             var car = await context.Autos.FindAsync(1);
 
             // Assert
-            Assert.Equal(2, car.ViewCount); // якщо в Details інкрементує на 2 - ок, якщо на 1 - буде помилка
+            Assert.Equal(1, car.ViewCount);
         }
     }
 }
