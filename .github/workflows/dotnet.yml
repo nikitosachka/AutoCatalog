@@ -27,3 +27,8 @@ jobs:
 
       - name: Run Tests
         run: dotnet test AutoCatalog.sln --no-build --logger "console;verbosity=detailed"
+
+      - name: Show Cyclomatic Complexity Result
+        run: |
+          echo "Cyclomatic Complexity result:"
+          grep "Cyclomatic Complexity of project:" $(find . -name "*.trx" -o -name "*.log" -o -name "*.txt" || true) || echo "Check test output above"
