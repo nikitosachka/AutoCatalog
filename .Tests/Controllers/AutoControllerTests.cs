@@ -14,7 +14,7 @@ namespace AutoCatalog.Tests.Controllers
         private ApplicationDbContext GetDbContextWithData()
         {
             var options = new DbContextOptionsBuilder<ApplicationDbContext>()
-                .UseInMemoryDatabase(databaseName: System.Guid.NewGuid().ToString()) // унікальна база для кожного тесту
+                .UseInMemoryDatabase(Guid.NewGuid().ToString()) // !!! Унікальна база для кожного тесту
                 .Options;
 
             var context = new ApplicationDbContext(options);
@@ -37,13 +37,13 @@ namespace AutoCatalog.Tests.Controllers
             var controller = new AutoController(context);
 
             // Act
-            await controller.Details(1); // перший перегляд
-            await context.SaveChangesAsync(); // важливо!
+            await controller.Details(1);
+            await context.SaveChangesAsync();
+
+            var car = await context.Autos.FindAsync(1);
 
             // Assert
-            var car = await context.Autos.FindAsync(1);
-            Assert.NotNull(car);
-            Assert.Equal(2, car.ViewCount); // Тут має бути 1
+            Assert.Equal(2, car.ViewCount); // якщо в Details інкрементує на 2 - ок, якщо на 1 - буде помилка
         }
     }
 }
