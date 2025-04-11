@@ -1,5 +1,6 @@
 using AutoCatalog.Tools;
 using NUnit.Framework;
+using System;
 using System.IO;
 
 namespace Tests.Tools
@@ -13,7 +14,7 @@ namespace Tests.Tools
 
             int complexity = CyclomaticComplexity.AnalyzeProject(projectPath);
 
-            TestContext.Progress.WriteLine($"Cyclomatic Complexity of project: {complexity}");
+            Console.WriteLine($"Cyclomatic Complexity of project: {complexity}");
         }
     }
 }
