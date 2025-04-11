@@ -14,19 +14,17 @@ namespace AutoCatalog.Tests.Controllers
         private ApplicationDbContext GetDbContextWithData()
         {
             var options = new DbContextOptionsBuilder<ApplicationDbContext>()
-                .UseInMemoryDatabase("TestViewCountDb")
+                .UseInMemoryDatabase(databaseName: System.Guid.NewGuid().ToString()) // унікальна база для кожного тесту
                 .Options;
 
             var context = new ApplicationDbContext(options);
 
-            if (!context.Autos.Any())
-            {
-                context.Autos.AddRange(
-                    new Auto { Id = 1, Brand = "Tesla", Model = "Model S", Year = 2021, ViewCount = 0 },
-                    new Auto { Id = 2, Brand = "Ford", Model = "Mustang", Year = 2020, ViewCount = 0 }
-                );
-                context.SaveChanges();
-            }
+            context.Autos.AddRange(
+                new Auto { Id = 1, Brand = "Tesla", Model = "Model S", Year = 2021, ViewCount = 0 },
+                new Auto { Id = 2, Brand = "Ford", Model = "Mustang", Year = 2020, ViewCount = 0 }
+            );
+
+            context.SaveChanges();
 
             return context;
         }
@@ -38,13 +36,14 @@ namespace AutoCatalog.Tests.Controllers
             var context = GetDbContextWithData();
             var controller = new AutoController(context);
 
-            // Act: Переглядаємо авто з ID = 1
-            await controller.Details(1);
+            // Act
+            await controller.Details(1); // перший перегляд
+            await context.SaveChangesAsync(); // важливо!
 
-            // Перевіряємо, що лічильник переглядів збільшився
-            var car = context.Autos.FirstOrDefault(a => a.Id == 1);
+            // Assert
+            var car = await context.Autos.FindAsync(1);
             Assert.NotNull(car);
-            Assert.Equal(2, car.ViewCount); // Лічильник має бути 1 після перегляду
+            Assert.Equal(1, car.ViewCount); // Тут має бути 1
         }
     }
 }
