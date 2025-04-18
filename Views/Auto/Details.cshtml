@@ -1,0 +1,37 @@
+@model AutoCatalog.Models.Auto
+
+<div class="details-container">
+    <h1>@Model.Brand @Model.Model</h1>
+    <div class="details-content">
+        <div class="car-info">
+            <img src="data:image/png;base64,@Model.ImageData" alt="@Model.Brand @Model.Model" width="500" height="500">
+            <p>Рік: @Model.Year</p>
+            <p>Ціна: $@Model.Price.ToString("N0")</p>
+        </div>
+        <a href="/Auto/Catalog" class="btn-primary">Назад до каталогу</a>
+    </div>
+</div>
+
+<style>
+    .details-container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #EDEDED;
+        border-radius: 8px;
+    }
+
+    .car-info {
+        background-color: white;
+        padding: 15px;
+        border-radius: 8px;
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .car-info img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+</style>
