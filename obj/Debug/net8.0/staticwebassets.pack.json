@@ -1,0 +1,345 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/scopedcss/projectbundle/AutoCatalog.bundle.scp.css",
+      "PackagePath": "staticwebassets/AutoCatalog.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/css/about.css",
+      "PackagePath": "staticwebassets/css/about.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/css/catalog.css",
+      "PackagePath": "staticwebassets/css/catalog.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/css/editcars.css",
+      "PackagePath": "staticwebassets/css/editcars.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/css/form.css",
+      "PackagePath": "staticwebassets/css/form.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/css/global.css",
+      "PackagePath": "staticwebassets/css/global.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/css/home.css",
+      "PackagePath": "staticwebassets/css/home.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/audi-a4-2019.png",
+      "PackagePath": "staticwebassets/images/audi-a4-2019.png"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/bmw-x5-2020.png",
+      "PackagePath": "staticwebassets/images/bmw-x5-2020.png"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/chevrolet-camaro-ss.png",
+      "PackagePath": "staticwebassets/images/chevrolet-camaro-ss.png"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/ford-f150-2017.png",
+      "PackagePath": "staticwebassets/images/ford-f150-2017.png"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/ford-focus.png",
+      "PackagePath": "staticwebassets/images/ford-focus.png"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/header.png",
+      "PackagePath": "staticwebassets/images/header.png"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/honda-civic.png",
+      "PackagePath": "staticwebassets/images/honda-civic.png"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/tesla-model-s.png",
+      "PackagePath": "staticwebassets/images/tesla-model-s.png"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/tesla-model3-2021.png",
+      "PackagePath": "staticwebassets/images/tesla-model3-2021.png"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/toyota-corolla.png",
+      "PackagePath": "staticwebassets/images/toyota-corolla.png"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/toyota-rav4-2018.png",
+      "PackagePath": "staticwebassets/images/toyota-rav4-2018.png"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/volkswagen-golf.png",
+      "PackagePath": "staticwebassets/images/volkswagen-golf.png"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/whatdoweoffer.png",
+      "PackagePath": "staticwebassets/images/whatdoweoffer.png"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/whyus.jpg",
+      "PackagePath": "staticwebassets/images/whyus.jpg"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/js/edit-cars.js",
+      "PackagePath": "staticwebassets/js/edit-cars.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/js/filter-catalog.js",
+      "PackagePath": "staticwebassets/js/filter-catalog.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.AutoCatalog.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.AutoCatalog.props",
+      "PackagePath": "build\\AutoCatalog.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.AutoCatalog.props",
+      "PackagePath": "buildMultiTargeting\\AutoCatalog.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.AutoCatalog.props",
+      "PackagePath": "buildTransitive\\AutoCatalog.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

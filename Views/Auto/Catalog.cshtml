@@ -1,0 +1,97 @@
+@model IEnumerable<AutoCatalog.Models.Auto>
+
+@{
+    ViewData["Title"] = "Каталог Авто";
+}
+
+<div class="page-container">
+    <!-- Фільтри максимально зліва -->
+    <aside class="filters">
+        <h3>Фільтри</h3>
+        <form id="filter-form">
+            <fieldset>
+                <legend>Марка</legend>
+                @{
+                    var brands = Model.Select(c => c.Brand).Distinct().OrderBy(b => b);
+                }
+                @foreach (var brand in brands)
+                {
+                    <label>
+                        <input type="checkbox" name="brand" value="@brand" /> @brand
+                    </label>
+                }
+            </fieldset>
+
+            <fieldset>
+                <legend>Тип кузова</legend>
+                @{
+                    var bodyTypes = Model.Select(c => c.BodyType).Distinct().OrderBy(bt => bt);
+                }
+                @foreach (var bodyType in bodyTypes)
+                {
+                    <label>
+                        <input type="checkbox" name="bodyType" value="@bodyType" /> @bodyType
+                    </label>
+                }
+            </fieldset>
+
+            <fieldset>
+                <legend>Колір</legend>
+                @{
+                    var colors = Model.Select(c => c.Color).Distinct().OrderBy(c => c);
+                }
+                @foreach (var color in colors)
+                {
+                    <label>
+                        <input type="checkbox" name="color" value="@color" /> @color
+                    </label>
+                }
+            </fieldset>
+
+            <button type="submit" class="apply-button">Застосувати</button>
+        </form>
+    </aside>
+
+    <!-- Центр: Каталог -->
+    <main class="catalog">
+        <div id="car-catalog" class="car-catalog">
+            @foreach (var car in Model)
+            {
+                <div class="car-info"
+                     data-brand="@car.Brand"
+                     data-bodytype="@car.BodyType"
+                     data-color="@car.Color"
+                     data-year="@car.Year"
+                     data-price="@car.Price">
+                    <h3>@car.Brand @car.Model (@car.Year)</h3>
+                    <img src="data:image/png;base64,@car.ImageData" alt="@car.Brand @car.Model" />
+                    <p>Ціна: <strong>@car.Price$</strong></p>
+                    <p>Тип кузова: @car.BodyType</p>
+                    <p>Колір: @car.Color</p>
+                    <a asp-action="Buy" asp-route-id="@car.Id" class="buy-button">Купити</a>
+                    <a asp-action="Details" asp-route-id="@car.Id" class="btn btn-primary">Деталі</a>
+                </div>
+            }
+        </div>
+    </main>
+
+    <!-- Права колонка: Блок сортування зверху -->
+    <aside class="sort-bar">
+        <select id="sortOrder" class="form-control">
+            <option value="price">Сортувати за ціною</option>
+            <option value="price_desc">Сортувати за ціною (спадання)</option>
+            <option value="brand">Сортувати за маркою</option>
+            <option value="brand_desc">Сортувати за маркою (спадання)</option>
+            <option value="year">Сортувати за роком випуску</option>
+            <option value="year_desc">Сортувати за роком випуску (спадання)</option>
+        </select>
+    </aside>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/catalog.css" />
+}
+
+@section Scripts {
+    <script src="~/js/filter-catalog.js"></script>
+}

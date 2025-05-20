@@ -1,0 +1,54 @@
+.car-info {
+    text-align: center;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 320px;  /* Додано обмеження ширини контейнера */
+    margin: 40px auto; /* Центрування + відступ зверху/знизу */
+    width: 100%;       /* Щоб адаптуватись під екран */
+    box-sizing: border-box; /* Щоб padding не збільшував ширину */
+}
+
+
+.buy-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 320px;
+    margin: auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buy-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #000;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buy-button:hover {
+    background-color: #444;
+}
+
+.text-danger {
+    color: #ff4d4d;
+    font-size: 0.9em;
+    margin-top: 5px;
+}

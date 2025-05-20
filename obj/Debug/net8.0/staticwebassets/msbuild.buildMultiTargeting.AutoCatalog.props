@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/AutoCatalog.props" />
+</Project>

@@ -1,0 +1,105 @@
+@model List<AutoCatalog.Models.Auto>
+
+@{
+    ViewData["Title"] = "Редагування Автомобілів";
+}
+
+<div class="edit-cars-page">
+    <div class="car-catalog">
+        <h1>Редагування Автомобілів</h1>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            var car = Model[i];
+            <div class="car-info">
+                <h2>@car.Brand @car.Model (@car.Year)</h2>
+                <form asp-action="EditCar" method="post" enctype="multipart/form-data" class="buy-form">
+                    <input type="hidden" name="id" value="@car.Id" />
+                    <div class="form-group">
+                        <label for="brand-@car.Id">Марка</label>
+                        <input id="brand-@car.Id" name="Brand" value="@car.Brand" class="form-control large-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="model-@car.Id">Модель</label>
+                        <input id="model-@car.Id" name="Model" value="@car.Model" class="form-control large-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="year-@car.Id">Рік</label>
+                        <input id="year-@car.Id" name="Year" value="@car.Year" class="form-control large-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="price-@car.Id">Ціна</label>
+                        <input id="price-@car.Id" name="Price" value="@car.Price" class="form-control large-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="bodytype-@car.Id">Тип кузова</label>
+                        <input id="bodytype-@car.Id" name="BodyType" value="@car.BodyType" class="form-control large-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="color-@car.Id">Колір</label>
+                        <input id="color-@car.Id" name="Color" value="@car.Color" class="form-control large-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="image-@car.Id">Картинка</label>
+                        <input type="file" id="image-@car.Id" name="Image" class="form-control" onchange="previewImage(event, @car.Id)" />
+                        @if (car.Image != null && car.Image.Length > 0)
+                        {
+                            <img id="preview-@car.Id" src="data:image/png;base64,@Convert.ToBase64String(car.Image)" alt="Preview" class="preview-image" />
+                        }
+                        else
+                        {
+                            <img id="preview-@car.Id" src="" alt="Preview" class="preview-image" style="display: none;" />
+                        }
+                    </div>
+                    <div class="form-group button-group">
+                        <button type="submit" class="buy-button">Зберегти Зміни</button>
+                        <button type="submit" formaction="@Url.Action("DeleteCar", "Admin", new { id = car.Id })" class="buy-button">Видалити</button>
+                    </div>
+                </form>
+            </div>
+        }
+    </div>
+
+    <div class="car-info add-car">
+        <h2>Додати Автомобіль</h2>
+        <form asp-action="AddCar" method="post" enctype="multipart/form-data" class="buy-form">
+            <div class="form-group">
+                <label for="brand">Марка</label>
+                <input id="brand" name="Brand" class="form-control large-input" required />
+            </div>
+            <div class="form-group">
+                <label for="model">Модель</label>
+                <input id="model" name="Model" class="form-control large-input" required />
+            </div>
+            <div class="form-group">
+                <label for="year">Рік</label>
+                <input id="year" name="Year" class="form-control large-input" required />
+            </div>
+            <div class="form-group">
+                <label for="price">Ціна</label>
+                <input id="price" name="Price" class="form-control large-input" required />
+            </div>
+            <div class="form-group">
+                <label for="bodytype">Тип кузова</label>
+                <input id="bodytype" name="BodyType" class="form-control large-input" />
+            </div>
+            <div class="form-group">
+                <label for="color">Колір</label>
+                <input id="color" name="Color" class="form-control large-input" />
+            </div>
+            <div class="form-group">
+                <label for="image">Картинка</label>
+                <input type="file" id="image" name="Image" class="form-control" onchange="previewImage(event, 'new')" required />
+                <img id="preview-new" alt="Preview" class="preview-image" style="display: none;" />
+            </div>
+            <button type="submit" class="buy-button">Додати</button>
+        </form>
+    </div>
+</div>
+
+@section Styles {
+    <link href="~/css/editcars.css" rel="stylesheet" />
+}
+
+@section Scripts {
+    <script src="~/js/edit-cars.js"></script>
+}

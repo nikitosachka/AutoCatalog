@@ -1,0 +1,112 @@
+/Users/nikitoska/Documents/AutoCatalog/bin/Debug/net8.0/appsettings.Development.json
+/Users/nikitoska/Documents/AutoCatalog/bin/Debug/net8.0/appsettings.json
+/Users/nikitoska/Documents/AutoCatalog/bin/Debug/net8.0/AutoCatalog.staticwebassets.runtime.json
+/Users/nikitoska/Documents/AutoCatalog/bin/Debug/net8.0/AutoCatalog
+/Users/nikitoska/Documents/AutoCatalog/bin/Debug/net8.0/AutoCatalog.deps.json
+/Users/nikitoska/Documents/AutoCatalog/bin/Debug/net8.0/AutoCatalog.runtimeconfig.json
+/Users/nikitoska/Documents/AutoCatalog/bin/Debug/net8.0/AutoCatalog.dll
+/Users/nikitoska/Documents/AutoCatalog/bin/Debug/net8.0/AutoCatalog.pdb
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/AutoCatalog.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/AutoCatalog.AssemblyInfoInputs.cache
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/AutoCatalog.AssemblyInfo.cs
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/AutoCatalog.csproj.CoreCompileInputs.cache
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/AutoCatalog.MvcApplicationPartsAssemblyInfo.cache
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/AutoCatalog.RazorAssemblyInfo.cache
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/AutoCatalog.RazorAssemblyInfo.cs
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/staticwebassets.build.json
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/staticwebassets.development.json
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/staticwebassets/msbuild.AutoCatalog.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/staticwebassets/msbuild.build.AutoCatalog.props
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.AutoCatalog.props
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.AutoCatalog.props
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/scopedcss/bundle/AutoCatalog.styles.css
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/scopedcss/projectbundle/AutoCatalog.bundle.scp.css
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/AutoCatalog.dll
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/refint/AutoCatalog.dll
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/AutoCatalog.pdb
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/AutoCatalog.genruntimeconfig.cache
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/ref/AutoCatalog.dll
+/Users/nikitoska/Documents/AutoCatalog/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/nikitoska/Documents/AutoCatalog/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/nikitoska/Documents/AutoCatalog/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/nikitoska/Documents/AutoCatalog/bin/Debug/net8.0/MySqlConnector.dll
+/Users/nikitoska/Documents/AutoCatalog/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/AutoCatalog.csproj.AssemblyReference.cache
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/AutoCata.DE5FEA41.Up2Date
+/Users/nikitoska/Documents/AutoCatalog копія/bin/Debug/net8.0/appsettings.Development.json
+/Users/nikitoska/Documents/AutoCatalog копія/bin/Debug/net8.0/appsettings.json
+/Users/nikitoska/Documents/AutoCatalog копія/bin/Debug/net8.0/AutoCatalog.staticwebassets.runtime.json
+/Users/nikitoska/Documents/AutoCatalog копія/bin/Debug/net8.0/AutoCatalog
+/Users/nikitoska/Documents/AutoCatalog копія/bin/Debug/net8.0/AutoCatalog.deps.json
+/Users/nikitoska/Documents/AutoCatalog копія/bin/Debug/net8.0/AutoCatalog.runtimeconfig.json
+/Users/nikitoska/Documents/AutoCatalog копія/bin/Debug/net8.0/AutoCatalog.dll
+/Users/nikitoska/Documents/AutoCatalog копія/bin/Debug/net8.0/AutoCatalog.pdb
+/Users/nikitoska/Documents/AutoCatalog копія/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/nikitoska/Documents/AutoCatalog копія/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/nikitoska/Documents/AutoCatalog копія/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/nikitoska/Documents/AutoCatalog копія/bin/Debug/net8.0/MySqlConnector.dll
+/Users/nikitoska/Documents/AutoCatalog копія/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/AutoCatalog.csproj.AssemblyReference.cache
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/AutoCatalog.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/AutoCatalog.AssemblyInfoInputs.cache
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/AutoCatalog.AssemblyInfo.cs
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/AutoCatalog.csproj.CoreCompileInputs.cache
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/AutoCatalog.MvcApplicationPartsAssemblyInfo.cache
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/AutoCatalog.RazorAssemblyInfo.cache
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/AutoCatalog.RazorAssemblyInfo.cs
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/staticwebassets.build.json
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/staticwebassets.development.json
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/staticwebassets/msbuild.AutoCatalog.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/staticwebassets/msbuild.build.AutoCatalog.props
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.AutoCatalog.props
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.AutoCatalog.props
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/scopedcss/bundle/AutoCatalog.styles.css
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/scopedcss/projectbundle/AutoCatalog.bundle.scp.css
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/AutoCata.DE5FEA41.Up2Date
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/AutoCatalog.dll
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/refint/AutoCatalog.dll
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/AutoCatalog.pdb
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/AutoCatalog.genruntimeconfig.cache
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/ref/AutoCatalog.dll
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCatalog.csproj.AssemblyReference.cache
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCatalog.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCatalog.AssemblyInfoInputs.cache
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCatalog.AssemblyInfo.cs
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCatalog.csproj.CoreCompileInputs.cache
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCatalog.MvcApplicationPartsAssemblyInfo.cache
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCatalog.RazorAssemblyInfo.cache
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCatalog.RazorAssemblyInfo.cs
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCatalog.dll
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/refint/AutoCatalog.dll
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCatalog.pdb
+/Users/nikitoska/Documents/AutoCatalog old/bin/Debug/net8.0/appsettings.Development.json
+/Users/nikitoska/Documents/AutoCatalog old/bin/Debug/net8.0/appsettings.json
+/Users/nikitoska/Documents/AutoCatalog old/bin/Debug/net8.0/AutoCatalog.staticwebassets.runtime.json
+/Users/nikitoska/Documents/AutoCatalog old/bin/Debug/net8.0/AutoCatalog
+/Users/nikitoska/Documents/AutoCatalog old/bin/Debug/net8.0/AutoCatalog.deps.json
+/Users/nikitoska/Documents/AutoCatalog old/bin/Debug/net8.0/AutoCatalog.runtimeconfig.json
+/Users/nikitoska/Documents/AutoCatalog old/bin/Debug/net8.0/AutoCatalog.dll
+/Users/nikitoska/Documents/AutoCatalog old/bin/Debug/net8.0/AutoCatalog.pdb
+/Users/nikitoska/Documents/AutoCatalog old/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/nikitoska/Documents/AutoCatalog old/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/nikitoska/Documents/AutoCatalog old/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/nikitoska/Documents/AutoCatalog old/bin/Debug/net8.0/MySqlConnector.dll
+/Users/nikitoska/Documents/AutoCatalog old/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/staticwebassets.build.json
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/staticwebassets.development.json
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/staticwebassets/msbuild.AutoCatalog.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/staticwebassets/msbuild.build.AutoCatalog.props
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.AutoCatalog.props
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.AutoCatalog.props
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/scopedcss/bundle/AutoCatalog.styles.css
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/scopedcss/projectbundle/AutoCatalog.bundle.scp.css
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCata.DE5FEA41.Up2Date
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCatalog.genruntimeconfig.cache
+/Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/ref/AutoCatalog.dll
+/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/AutoCatalog.sourcelink.json

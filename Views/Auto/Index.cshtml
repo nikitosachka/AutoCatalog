@@ -1,0 +1,88 @@
+@model List<AutoCatalog.Models.Auto>
+@{
+    ViewData["Title"] = "Авто зі США";
+}
+
+<!-- Використовуємо ваш існуючий стиль з style.css -->
+<div class="main-content">
+    <div class="text-overlay">
+        <h1>Вітаємо на нашому сайті!</h1>
+        <p>Тут ви можете знайти найкращі авто зі США</p>
+    </div>
+</div>
+
+<!-- Блок топ-5 авто (без додаткових стилів для привітання) -->
+<div class="top-cars-under-welcome">
+    <h2>Топ-5 популярних авто</h2>
+    @if (Model != null && Model.Any())
+    {
+        <div class="cars-vertical-list">
+            @foreach (var car in Model.Take(5))
+            {
+                <div class="car-simple-card">
+                    <div class="car-title">@car.Brand @car.Model</div>
+                    <div class="car-meta">
+                        <span>@car.Year рік</span>
+                        <span>$@car.Price.ToString("N0")</span>
+                        <span><i class="fas fa-eye"></i> @car.ViewCount</span>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p class="no-cars-msg">Наразі немає популярних авто</p>
+    }
+</div>
+
+<style>
+    /* Стилі тільки для блоку з авто */
+    .top-cars-under-welcome {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+
+    .cars-vertical-list {
+        margin-top: 20px;
+    }
+
+    .car-simple-card {
+        background: #EDEDED;
+        border-radius: 8px;
+        padding: 12px 15px;
+        margin-bottom: 10px;
+    }
+
+    .car-title {
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 5px;
+    }
+
+    .car-meta {
+        display: flex;
+        justify-content: space-between;
+        color: #666;
+        font-size: 0.9em;
+    }
+
+    .car-meta span {
+        flex: 1;
+        text-align: center;
+    }
+
+    .no-cars-msg {
+        text-align: center;
+        color: #666;
+        padding: 15px;
+    }
+</style>
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/home.css" />
+}
+
+<!-- Підключення Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
