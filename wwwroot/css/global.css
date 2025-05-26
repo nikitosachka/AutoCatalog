@@ -87,3 +87,66 @@ header .logo {
     font-size: 1.5em;
     font-weight: bold;
 }
+/* Планшети */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: row;        /* горизонтальний рядок */
+        justify-content: center;    /* центр навігації */
+        gap: 20px;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;        /* центр для логотипу і навігації */
+        padding: 10px;
+    }
+
+    header .logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        display: block;
+    }
+}
+
+/* Телефони */
+@media (max-width: 480px) {
+    main {
+        padding: 10px 5px;
+    }
+
+    nav ul {
+        flex-direction: row;        /* горизонтальний рядок */
+        justify-content: center;
+        gap: 15px;
+        padding: 5px 0;
+        font-size: 0.9em;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;        /* центр для логотипу */
+        padding: 8px 5px;
+    }
+
+    header .logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 8px;
+        display: block;
+    }
+}

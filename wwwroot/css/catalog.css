@@ -165,20 +165,28 @@
     background-color: #555;
 }
 
-/* Мобільна адаптація */
 @media (max-width: 768px) {
     .page-container {
+        display: flex;
         flex-direction: column;
     }
 
-    .filters,
+    .filters {
+        order: 1;
+        width: 100%;
+        position: static;
+        margin-bottom: 20px;
+    }
+
     .sort-bar {
+        order: 2;
         width: 100%;
         position: static;
         margin-bottom: 20px;
     }
 
     .catalog {
+        order: 3;
         width: 100%;
         align-items: center;
     }

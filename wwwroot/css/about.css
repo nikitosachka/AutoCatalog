@@ -1,43 +1,116 @@
 .about-us {
-    text-align: left;
-    background-color: #FFF;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    font-size: 1.25em;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px 40px;
+    max-width: 900px;
+    margin: 40px auto;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+    line-height: 1.6;
+}
+
+.about-us h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+    text-align: center;
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #444;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #333;
     margin-bottom: 20px;
-    width: 100%;
-    max-width: 1200px;
+    border-bottom: 3px solid #2c3e50;
+    padding-bottom: 6px;
 }
 
 .section-content {
     display: flex;
-    gap: 20px;
-    align-items: flex-start;
-}
-
-.about-image {
-    flex-shrink: 0;
-    border-radius: 10px;
+    gap: 30px;
+    margin-bottom: 35px;
 }
 
 .why-choose-us, .our-services {
     flex: 1;
 }
 
-.about-us ul {
+.why-choose-us ul,
+.our-services ul {
+    list-style: disc inside;
+    padding-left: 0;
+    color: #555;
+    font-size: 1rem;
+}
+
+.why-choose-us ul li,
+.our-services ul li {
+    margin-bottom: 12px;
+}
+
+.why-choose-us ul li strong,
+.our-services ul li strong {
+    color: #2c3e50;
+}
+
+.contact-list {
     list-style: none;
     padding: 0;
+    font-size: 1rem;
+    color: #555;
 }
 
-.about-us ul li {
-    margin-bottom: 10px;
+.contact-list li {
+    margin-bottom: 12px;
 }
 
-.about-us ul li strong {
-    color: #000;
+.link-primary {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 600;
 }
 
-.about-us p {
-    margin: 20px 0;
+.link-primary:hover {
+    text-decoration: underline;
+}
+
+/* Планшети */
+@media (max-width: 768px) {
+    .about-us {
+        padding: 20px 25px;
+        margin: 30px 15px;
+    }
+    .section-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Телефони */
+@media (max-width: 480px) {
+    .about-us {
+        padding: 15px 20px;
+        margin: 20px 10px;
+        font-size: 0.95rem;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
 }

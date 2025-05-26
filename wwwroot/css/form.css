@@ -52,3 +52,41 @@
     font-size: 0.9em;
     margin-top: 5px;
 }
+/* Планшети */
+@media (max-width: 768px) {
+    .car-info {
+        max-width: 100%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .buy-form {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}
+
+/* Телефони */
+@media (max-width: 480px) {
+    .car-info {
+        max-width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    .buy-form {
+        padding: 0 10px;
+        gap: 10px;
+    }
+
+    .form-control {
+        padding: 8px;
+        font-size: 0.85em;
+    }
+
+    .buy-button {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+}

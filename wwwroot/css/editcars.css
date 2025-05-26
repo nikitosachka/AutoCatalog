@@ -117,3 +117,67 @@
     font-size: 14px;
     padding: 6px 12px;
 }
+/* Планшети */
+@media (max-width: 768px) {
+    .edit-cars-page {
+        flex-direction: column;
+        padding: 15px;
+        gap: 25px;
+    }
+
+    .car-catalog {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .buy-form {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+}
+
+/* Телефони */
+@media (max-width: 480px) {
+    .edit-cars-page {
+        padding: 10px 5px;
+        gap: 15px;
+    }
+
+    .buy-form {
+        padding: 0;
+    }
+
+    .form-control {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+
+    .buy-button {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+
+    .add-car {
+        width: 90vw;
+        right: 5vw;
+        bottom: 20px;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .add-car h2 {
+        font-size: 14px;
+    }
+
+    .add-car input.form-control.large-input {
+        font-size: 12px;
+        padding: 5px 6px;
+    }
+
+    .add-car button.buy-button {
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+}
+

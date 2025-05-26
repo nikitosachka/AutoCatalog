@@ -67,3 +67,49 @@
     color: #EDEDED;
     padding: 20px;
 }
+/* Планшети */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .text-overlay {
+        font-size: 36px;
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .top-cars-container {
+        max-width: 100%;
+        padding: 0 10px 30px;
+    }
+}
+
+/* Телефони */
+@media (max-width: 480px) {
+    .main-content {
+        padding: 15px 5px;
+    }
+
+    .text-overlay {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .top-cars-container {
+        padding: 0 5px 20px;
+    }
+
+    .car-simple-card {
+        padding: 10px;
+    }
+
+    .car-title {
+        font-size: 1em;
+    }
+
+    .car-meta {
+        font-size: 0.8em;
+    }
+}

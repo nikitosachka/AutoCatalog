@@ -81,14 +81,6 @@
       "PackagePath": "staticwebassets/images/volkswagen-golf.png"
     },
     {
-      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/whatdoweoffer.png",
-      "PackagePath": "staticwebassets/images/whatdoweoffer.png"
-    },
-    {
-      "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/whyus.jpg",
-      "PackagePath": "staticwebassets/images/whyus.jpg"
-    },
-    {
       "Id": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/js/edit-cars.js",
       "PackagePath": "staticwebassets/js/edit-cars.js"
     },
