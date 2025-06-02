@@ -5,7 +5,7 @@
 }
 
 <div class="page-container">
-    <!-- Фільтри максимально зліва -->
+    <!-- Фільтри -->
     <aside class="filters">
         <h3>Фільтри</h3>
         <form id="filter-form">
@@ -16,9 +16,7 @@
                 }
                 @foreach (var brand in brands)
                 {
-                    <label>
-                        <input type="checkbox" name="brand" value="@brand" /> @brand
-                    </label>
+                    <label><input type="checkbox" name="brand" value="@brand" /> @brand</label>
                 }
             </fieldset>
 
@@ -29,9 +27,7 @@
                 }
                 @foreach (var bodyType in bodyTypes)
                 {
-                    <label>
-                        <input type="checkbox" name="bodyType" value="@bodyType" /> @bodyType
-                    </label>
+                    <label><input type="checkbox" name="bodyType" value="@bodyType" /> @bodyType</label>
                 }
             </fieldset>
 
@@ -42,17 +38,49 @@
                 }
                 @foreach (var color in colors)
                 {
-                    <label>
-                        <input type="checkbox" name="color" value="@color" /> @color
-                    </label>
+                    <label><input type="checkbox" name="color" value="@color" /> @color</label>
                 }
             </fieldset>
 
+            <fieldset>
+                <legend>Тип палива</legend>
+                @{
+                    var fuels = Model.Select(c => c.FuelType).Distinct().OrderBy(f => f);
+                }
+                @foreach (var fuel in fuels)
+                {
+                    <label><input type="checkbox" name="fuelType" value="@fuel" /> @fuel</label>
+                }
+            </fieldset>
+
+            <fieldset>
+                <legend>Трансмісія</legend>
+                @{
+                    var transmissions = Model.Select(c => c.Transmission).Distinct().OrderBy(t => t);
+                }
+                @foreach (var transmission in transmissions)
+                {
+                    <label><input type="checkbox" name="transmission" value="@transmission" /> @transmission</label>
+                }
+            </fieldset>
+
+            <fieldset>
+                <legend>Обʼєм двигуна (макс)</legend>
+                <input type="number" id="engineVolumeMax" value="@Model.Max(c => c.EngineVolume)" step="0.1" min="0" max="10" />
+            </fieldset>
+
+            <fieldset>
+                <legend>Максимальний пробіг</legend>
+                <input type="range" id="mileageRange" name="mileage" min="0" max="@Model.Max(c => c.Mileage)" step="1000" value="@Model.Max(c => c.Mileage)" />
+                <div>До <span id="mileageValue">@Model.Max(c => c.Mileage)</span> км</div>
+            </fieldset>
+
             <button type="submit" class="apply-button">Застосувати</button>
+            <button type="button" id="reset-button" class="reset-button">Скинути фільтри</button>
         </form>
     </aside>
 
-    <!-- Центр: Каталог -->
+    <!-- Каталог -->
     <main class="catalog">
         <div id="car-catalog" class="car-catalog">
             @foreach (var car in Model)
@@ -62,12 +90,14 @@
                      data-bodytype="@car.BodyType"
                      data-color="@car.Color"
                      data-year="@car.Year"
-                     data-price="@car.Price">
+                     data-price="@car.Price"
+                     data-mileage="@car.Mileage"
+                     data-fueltype="@car.FuelType"
+                     data-transmission="@car.Transmission"
+                     data-enginevolume="@car.EngineVolume">
                     <h3>@car.Brand @car.Model (@car.Year)</h3>
                     <img src="data:image/png;base64,@car.ImageData" alt="@car.Brand @car.Model" />
                     <p>Ціна: <strong>@car.Price$</strong></p>
-                    <p>Тип кузова: @car.BodyType</p>
-                    <p>Колір: @car.Color</p>
                     <a asp-action="Buy" asp-route-id="@car.Id" class="buy-button">Купити</a>
                     <a asp-action="Details" asp-route-id="@car.Id" class="btn btn-primary">Деталі</a>
                 </div>
@@ -75,7 +105,7 @@
         </div>
     </main>
 
-    <!-- Права колонка: Блок сортування зверху -->
+    <!-- Сортування -->
     <aside class="sort-bar">
         <select id="sortOrder" class="form-control">
             <option value="price">Сортувати за ціною</option>

@@ -110,3 +110,4 @@
 /Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/AutoCatalog.genruntimeconfig.cache
 /Users/nikitoska/Documents/AutoCatalog old/obj/Debug/net8.0/ref/AutoCatalog.dll
 /Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/AutoCatalog.sourcelink.json
+/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/AutoCatalog.sourcelink.json

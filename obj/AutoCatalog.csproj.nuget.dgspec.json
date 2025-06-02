@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nikitoska/Documents/AutoCatalog копія/AutoCatalog.csproj": {}
+    "/Users/nikitoska/Documents/AutoCatalog/AutoCatalog.csproj": {}
   },
   "projects": {
-    "/Users/nikitoska/Documents/AutoCatalog копія/AutoCatalog.csproj": {
+    "/Users/nikitoska/Documents/AutoCatalog/AutoCatalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nikitoska/Documents/AutoCatalog копія/AutoCatalog.csproj",
+        "projectUniqueName": "/Users/nikitoska/Documents/AutoCatalog/AutoCatalog.csproj",
         "projectName": "AutoCatalog",
-        "projectPath": "/Users/nikitoska/Documents/AutoCatalog копія/AutoCatalog.csproj",
+        "projectPath": "/Users/nikitoska/Documents/AutoCatalog/AutoCatalog.csproj",
         "packagesPath": "/Users/nikitoska/.nuget/packages/",
-        "outputPath": "/Users/nikitoska/Documents/AutoCatalog копія/obj/",
+        "outputPath": "/Users/nikitoska/Documents/AutoCatalog/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nikitoska/.nuget/NuGet/NuGet.Config"

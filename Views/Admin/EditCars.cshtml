@@ -3,7 +3,6 @@
 @{
     ViewData["Title"] = "Редагування Автомобілів";
 }
-
 <div class="edit-cars-page">
     <div class="car-catalog">
         <h1>Редагування Автомобілів</h1>
@@ -13,7 +12,8 @@
             <div class="car-info">
                 <h2>@car.Brand @car.Model (@car.Year)</h2>
                 <form asp-action="EditCar" method="post" enctype="multipart/form-data" class="buy-form">
-                    <input type="hidden" name="id" value="@car.Id" />
+                    <input type="hidden" name="Id" value="@car.Id" />
+                    
                     <div class="form-group">
                         <label for="brand-@car.Id">Марка</label>
                         <input id="brand-@car.Id" name="Brand" value="@car.Brand" class="form-control large-input" />
@@ -37,6 +37,22 @@
                     <div class="form-group">
                         <label for="color-@car.Id">Колір</label>
                         <input id="color-@car.Id" name="Color" value="@car.Color" class="form-control large-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="fueltype-@car.Id">Тип пального</label>
+                        <input id="fueltype-@car.Id" name="FuelType" value="@car.FuelType" class="form-control large-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="transmission-@car.Id">Коробка передач</label>
+                        <input id="transmission-@car.Id" name="Transmission" value="@car.Transmission" class="form-control large-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="mileage-@car.Id">Пробіг (км)</label>
+                        <input id="mileage-@car.Id" name="Mileage" value="@car.Mileage" class="form-control large-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="enginevolume-@car.Id">Обʼєм двигуна (л)</label>
+                        <input id="enginevolume-@car.Id" name="EngineVolume" value="@car.EngineVolume" class="form-control large-input" />
                     </div>
                     <div class="form-group">
                         <label for="image-@car.Id">Картинка</label>
@@ -85,6 +101,22 @@
             <div class="form-group">
                 <label for="color">Колір</label>
                 <input id="color" name="Color" class="form-control large-input" />
+            </div>
+            <div class="form-group">
+                <label for="fueltype">Тип пального</label>
+                <input id="fueltype" name="FuelType" class="form-control large-input" />
+            </div>
+            <div class="form-group">
+                <label for="transmission">Коробка передач</label>
+                <input id="transmission" name="Transmission" class="form-control large-input" />
+            </div>
+            <div class="form-group">
+                <label for="mileage">Пробіг (км)</label>
+                <input id="mileage" name="Mileage" class="form-control large-input" />
+            </div>
+            <div class="form-group">
+                <label for="enginevolume">Обʼєм двигуна (л)</label>
+                <input id="enginevolume" name="EngineVolume" class="form-control large-input" />
             </div>
             <div class="form-group">
                 <label for="image">Картинка</label>

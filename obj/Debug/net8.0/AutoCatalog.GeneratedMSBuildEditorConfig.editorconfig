@@ -9,59 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AutoCatalog
 build_property.RootNamespace = AutoCatalog
-build_property.ProjectDir = /Users/nikitoska/Documents/AutoCatalog копія/
+build_property.ProjectDir = /Users/nikitoska/Documents/AutoCatalog/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/nikitoska/Documents/AutoCatalog копія
+build_property.MSBuildProjectDirectory = /Users/nikitoska/Documents/AutoCatalog
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/nikitoska/Documents/AutoCatalog копія/Views/Admin/EditCars.cshtml]
+[/Users/nikitoska/Documents/AutoCatalog/Views/Admin/EditCars.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRWRpdENhcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitoska/Documents/AutoCatalog копія/Views/Admin/Login.cshtml]
+[/Users/nikitoska/Documents/AutoCatalog/Views/Admin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitoska/Documents/AutoCatalog копія/Views/Auto/About.cshtml]
+[/Users/nikitoska/Documents/AutoCatalog/Views/Auto/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0by9BYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitoska/Documents/AutoCatalog копія/Views/Auto/Buy.cshtml]
+[/Users/nikitoska/Documents/AutoCatalog/Views/Auto/Buy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0by9CdXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitoska/Documents/AutoCatalog копія/Views/Auto/Catalog.cshtml]
+[/Users/nikitoska/Documents/AutoCatalog/Views/Auto/Catalog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0by9DYXRhbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitoska/Documents/AutoCatalog копія/Views/Auto/Details.cshtml]
+[/Users/nikitoska/Documents/AutoCatalog/Views/Auto/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0by9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitoska/Documents/AutoCatalog копія/Views/Auto/Index.cshtml]
+[/Users/nikitoska/Documents/AutoCatalog/Views/Auto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0by9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitoska/Documents/AutoCatalog копія/Views/Shared/Error.cshtml]
+[/Users/nikitoska/Documents/AutoCatalog/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitoska/Documents/AutoCatalog копія/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/nikitoska/Documents/AutoCatalog/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitoska/Documents/AutoCatalog копія/Views/_ViewImports.cshtml]
+[/Users/nikitoska/Documents/AutoCatalog/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitoska/Documents/AutoCatalog копія/Views/_ViewStart.cshtml]
+[/Users/nikitoska/Documents/AutoCatalog/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitoska/Documents/AutoCatalog копія/Views/Shared/_Layout.cshtml]
+[/Users/nikitoska/Documents/AutoCatalog/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ie83iihb4l

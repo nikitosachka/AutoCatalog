@@ -78,12 +78,24 @@ namespace AutoCatalog.Controllers
                 }
                 return car;
             }).ToList();
+
             return View(carsWithImages);
         }
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> EditCar(int id, string Brand, string Model, int Year, decimal Price, string BodyType, string Color)
+        public async Task<IActionResult> EditCar(
+            int id,
+            string Brand,
+            string Model,
+            int Year,
+            decimal Price,
+            string BodyType,
+            string Color,
+            string FuelType,
+            string Transmission,
+            int Mileage,
+            double EngineVolume)
         {
             var car = await _context.Cars.FindAsync(id);
             if (car != null)
@@ -94,6 +106,10 @@ namespace AutoCatalog.Controllers
                 car.Price = Price;
                 car.BodyType = BodyType;
                 car.Color = Color;
+                car.FuelType = FuelType;
+                car.Transmission = Transmission;
+                car.Mileage = Mileage;
+                car.EngineVolume = EngineVolume;
 
                 var image = HttpContext.Request.Form.Files["Image"];
                 if (image != null && image.Length > 0)
@@ -115,20 +131,19 @@ namespace AutoCatalog.Controllers
         [HttpPost]
         public async Task<IActionResult> AddCar(Auto car, IFormFile image)
         {
-            if (image != null)
+            if (image != null && image.Length > 0)
             {
                 using (var memoryStream = new MemoryStream())
                 {
                     await image.CopyToAsync(memoryStream);
                     car.Image = memoryStream.ToArray();
                 }
-
-                _context.Cars.Add(car);
-                await _context.SaveChangesAsync();
-                return RedirectToAction("EditCars");
             }
 
-            return View("EditCars", await _context.Cars.ToListAsync());
+            _context.Cars.Add(car);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("EditCars");
         }
 
         [Authorize]

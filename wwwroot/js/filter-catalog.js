@@ -2,6 +2,18 @@ document.addEventListener("DOMContentLoaded", function () {
     const sortOrderSelect = document.getElementById("sortOrder");
     const carCatalog = document.getElementById("car-catalog");
     const filterForm = document.getElementById("filter-form");
+    const resetButton = document.getElementById("reset-button");
+
+    const mileageSlider = document.getElementById("mileageRange");
+    const mileageValueLabel = document.getElementById("mileageValue");
+    const engineVolumeMax = document.getElementById("engineVolumeMax");
+
+    const initialMileage = mileageSlider.max;
+    const initialEngineVolume = engineVolumeMax.max;
+
+    mileageSlider.addEventListener("input", () => {
+        mileageValueLabel.textContent = mileageSlider.value;
+    });
 
     // Сортування
     sortOrderSelect.addEventListener("change", function () {
@@ -10,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         cars.sort((a, b) => {
             let comparison = 0;
-
             const getTitle = el => el.querySelector("h1, h3")?.textContent ?? "";
 
             switch (sortOrder) {
@@ -47,6 +58,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const selectedBrands = getCheckedValues("brand");
         const selectedBodies = getCheckedValues("bodyType");
         const selectedColors = getCheckedValues("color");
+        const selectedFuels = getCheckedValues("fuelType");
+        const selectedTransmissions = getCheckedValues("transmission");
+        const maxMileage = parseInt(mileageSlider.value);
+        const maxEngineVolume = parseFloat(engineVolumeMax.value);
 
         const cars = carCatalog.getElementsByClassName("car-info");
 
@@ -54,13 +69,33 @@ document.addEventListener("DOMContentLoaded", function () {
             const matchesBrand = selectedBrands.length === 0 || selectedBrands.includes(car.dataset.brand);
             const matchesBody = selectedBodies.length === 0 || selectedBodies.includes(car.dataset.bodytype);
             const matchesColor = selectedColors.length === 0 || selectedColors.includes(car.dataset.color);
+            const matchesFuel = selectedFuels.length === 0 || selectedFuels.includes(car.dataset.fueltype);
+            const matchesTrans = selectedTransmissions.length === 0 || selectedTransmissions.includes(car.dataset.transmission);
+            const matchesMileage = parseInt(car.dataset.mileage) <= maxMileage;
+            const matchesEngine = parseFloat(car.dataset.enginevolume) <= maxEngineVolume;
 
-            if (matchesBrand && matchesBody && matchesColor) {
-                car.style.display = "block";
-            } else {
-                car.style.display = "none";
-            }
+            car.style.display = (matchesBrand && matchesBody && matchesColor && matchesFuel && matchesTrans && matchesMileage && matchesEngine)
+                ? "block"
+                : "none";
         }
+    });
+
+    // 👉 Додано: Скидання фільтрів
+    resetButton.addEventListener("click", function () {
+        // Знімаємо всі чекбокси
+        filterForm.querySelectorAll("input[type='checkbox']").forEach(cb => cb.checked = false);
+
+        // Скидаємо range і number inputs
+        mileageSlider.value = initialMileage;
+        engineVolumeMax.value = initialEngineVolume;
+
+        // Оновлюємо відображення значення пробігу
+        mileageValueLabel.textContent = initialMileage;
+
+        // Показуємо всі машини
+        Array.from(carCatalog.getElementsByClassName("car-info")).forEach(car => {
+            car.style.display = "block";
+        });
     });
 
     function getCheckedValues(name) {

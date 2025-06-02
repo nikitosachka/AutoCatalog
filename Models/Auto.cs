@@ -13,6 +13,12 @@ namespace AutoCatalog.Models
         public int ViewCount { get; set; } = 0;
         public string BodyType { get; set; }
         public string Color { get; set; }
+
+        public int Mileage { get; set; }
+        public string FuelType { get; set; }
+        public string Transmission { get; set; }
+        public double EngineVolume { get; set; }
+        public string Description { get; set; }
         
         [NotMapped]
         public string ImageData { get; set; }

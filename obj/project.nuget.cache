@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1zUbGibDiiE=",
+  "dgSpecHash": "UVZbqz6DGXQ=",
   "success": true,
-  "projectFilePath": "/Users/nikitoska/Documents/AutoCatalog копія/AutoCatalog.csproj",
+  "projectFilePath": "/Users/nikitoska/Documents/AutoCatalog/AutoCatalog.csproj",
   "expectedPackageFiles": [
     "/Users/nikitoska/.nuget/packages/microsoft.entityframeworkcore/8.0.2/microsoft.entityframeworkcore.8.0.2.nupkg.sha512",
     "/Users/nikitoska/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.2/microsoft.entityframeworkcore.abstractions.8.0.2.nupkg.sha512",

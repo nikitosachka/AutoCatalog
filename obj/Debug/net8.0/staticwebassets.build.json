@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sY8XnygkwCDa1vH390wh8IsCmNUMj9+CaqFRf5ioS54=",
+  "Hash": "avqTpgMjgLQDwi3ZS2dgYbsiEgJ0Uj3gIBI+KA5W6Is=",
   "Source": "AutoCatalog",
   "BasePath": "_content/AutoCatalog",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AutoCatalog/wwwroot",
       "Source": "AutoCatalog",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/scopedcss/bundle/AutoCatalog.styles.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/scopedcss/bundle/AutoCatalog.styles.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "AutoCatalog.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/scopedcss/bundle/AutoCatalog.styles.css"
+      "OriginalItemSpec": "/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/scopedcss/bundle/AutoCatalog.styles.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/scopedcss/projectbundle/AutoCatalog.bundle.scp.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/scopedcss/projectbundle/AutoCatalog.bundle.scp.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "AutoCatalog.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/nikitoska/Documents/AutoCatalog копія/obj/Debug/net8.0/scopedcss/projectbundle/AutoCatalog.bundle.scp.css"
+      "OriginalItemSpec": "/Users/nikitoska/Documents/AutoCatalog/obj/Debug/net8.0/scopedcss/projectbundle/AutoCatalog.bundle.scp.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/css/about.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/css/about.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "css/about.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/css/about.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/css/catalog.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/css/catalog.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "css/catalog.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot/css/catalog.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/css/editcars.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/css/editcars.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "css/editcars.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/css/editcars.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/css/form.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/css/form.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "css/form.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/css/form.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/css/global.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/css/global.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "css/global.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot/css/global.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/css/home.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/css/home.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "css/home.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot/css/home.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/favicon.ico",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/favicon.ico",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/audi-a4-2019.png",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/images/audi-a4-2019.png",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "images/audi-a4-2019.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot/images/audi-a4-2019.png"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/bmw-x5-2020.png",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/images/bmw-x5-2020.png",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "images/bmw-x5-2020.png",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot/images/bmw-x5-2020.png"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/chevrolet-camaro-ss.png",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/images/chevrolet-camaro-ss.png",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "images/chevrolet-camaro-ss.png",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot/images/chevrolet-camaro-ss.png"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/ford-f150-2017.png",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/images/ford-f150-2017.png",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "images/ford-f150-2017.png",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot/images/ford-f150-2017.png"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/ford-focus.png",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/images/ford-focus.png",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "images/ford-focus.png",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot/images/ford-focus.png"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/header.png",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/images/header.png",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "images/header.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot/images/header.png"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/honda-civic.png",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/images/honda-civic.png",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "images/honda-civic.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot/images/honda-civic.png"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/tesla-model-s.png",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/images/tesla-model-s.png",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "images/tesla-model-s.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/images/tesla-model-s.png"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/tesla-model3-2021.png",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/images/tesla-model3-2021.png",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "images/tesla-model3-2021.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot/images/tesla-model3-2021.png"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/toyota-corolla.png",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/images/toyota-corolla.png",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "images/toyota-corolla.png",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot/images/toyota-corolla.png"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/toyota-rav4-2018.png",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/images/toyota-rav4-2018.png",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "images/toyota-rav4-2018.png",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot/images/toyota-rav4-2018.png"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/images/volkswagen-golf.png",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/images/volkswagen-golf.png",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "images/volkswagen-golf.png",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot/images/volkswagen-golf.png"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/js/edit-cars.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/js/edit-cars.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "js/edit-cars.js",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot/js/edit-cars.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/js/filter-catalog.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/js/filter-catalog.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "js/filter-catalog.js",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot/js/filter-catalog.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "AutoCatalog",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog копія/wwwroot/",
+      "ContentRoot": "/Users/nikitoska/Documents/AutoCatalog/wwwroot/",
       "BasePath": "_content/AutoCatalog",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
